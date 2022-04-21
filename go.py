@@ -1,6 +1,11 @@
 import requests, os, sys, json, time
 from time import sleep
 
+def mengetik(z):
+    for e in z + "\n":
+      sys.stdout.write(e)
+      sys.stdout.flush()
+      time.sleep(0.05)
 
 os.system('clear')
 print ('\033[36;1mSubscribe yt ku ngab \033[37mMisterAM \033[36mok! :v')
